@@ -11,6 +11,7 @@
   <a href="https://www.npmjs.com/package/@tyck/prompts"><img src="https://img.shields.io/npm/v/@tyck/prompts?style=flat&colorA=18181B&colorB=14F195" alt="Version"></a>
   <a href="https://www.npmjs.com/package/@tyck/prompts"><img src="https://img.shields.io/npm/dm/@tyck/prompts?style=flat&colorA=18181B&colorB=14F195" alt="Downloads"></a>
   <a href="[.packacges/prompts/LICENSE](https://github.com/nyxb/tyck/blob/main/LICENSE)"><img src="https://img.shields.io/github/license/nyxb/tyck?style=flat&colorA=18181B&colorB=14F195" alt="License"></a>
+  <a href"https://www.paka.dev/npm/@tyck/prompts"><img src="https://www.paka.dev/badges/v0/cute.svg" alt="docs"></a>
  </p>
 
 <table>
