@@ -1,7 +1,7 @@
 {
   "name": "@tyck/prompts",
   "type": "module",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "packageManager": "pnpm@7.6.0",
   "author": "Dennis Ollhoff <contact@nyxb.xyz>",
   "license": "MIT",
