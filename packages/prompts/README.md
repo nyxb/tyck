@@ -8,7 +8,7 @@
 <br />
 <br />
  <p>
-  <a href="https://www.npmjs.com/package/@tyck/prompts" target="_blank"><img src="https://img.shields.io/npm/v/@tyck/prompts?style=flat&colorA=18181B&colorB=14F195" alt="Version"></a>
+  <a target="_blank" href="https://www.npmjs.com/package/@tyck/prompts"><img src="https://img.shields.io/npm/v/@tyck/prompts?style=flat&colorA=18181B&colorB=14F195" alt="Version"></a>
   <a href="https://www.npmjs.com/package/@tyck/prompts" target="_blank"><img src="https://img.shields.io/npm/dm/@tyck/prompts?style=flat&colorA=18181B&colorB=14F195" alt="Downloads"></a>
   <a href="https://github.com/nyxb/tyck/blob/main/LICENSE" target="_blank"><img src="https://img.shields.io/github/license/nyxb/tyck.svg?style=flat&colorA=18181B&colorB=14F195" alt="License"></a>
   <a href="https://www.paka.dev/npm/@tyck/prompts" target="_blank"><img src="https://www.paka.dev/badges/v0/cute.svg" alt="Docs"></a>
