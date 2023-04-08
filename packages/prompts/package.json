@@ -1,0 +1,61 @@
+{
+  "name": "@tyck/prompts",
+  "type": "module",
+  "version": "0.0.1",
+  "packageManager": "pnpm@7.6.0",
+  "author": "Dennis Ollhoff <contact@nyxb.xyz>",
+  "license": "MIT",
+  "homepage": "https://github.com/nyxb/bang/tree/main/packages/prompts#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nyxb/bang",
+    "directory": "packages/prompts"
+  },
+  "bugs": {
+    "url": "https://github.com/nyxb/bang/issues"
+  },
+  "keywords": [
+    "ask",
+    "bang",
+    "cli",
+    "command-line",
+    "command",
+    "input",
+    "interact",
+    "interface",
+    "menu",
+    "prompt",
+    "prompts",
+    "stdin",
+    "ui"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "require": "./dist/index.cjs",
+      "import": "./dist/index.mjs"
+    },
+    "./package.json": "./package.json"
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "unbuild",
+    "prepack": "pnpm build"
+  },
+  "dependencies": {
+    "@tyck/core": "^0.0.1",
+    "@nyxb/picocolors": "^1.0.1",
+    "sisteransi": "^1.0.5"
+  },
+  "devDependencies": {
+    "is-unicode-supported": "^1.3.0"
+  },
+  "bundledDependencies": [
+    "is-unicode-supported"
+  ]
+}

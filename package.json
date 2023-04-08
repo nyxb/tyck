@@ -1,0 +1,35 @@
+{
+  "name": "@nyxb/bang-root",
+  "type": "module",
+  "private": true,
+  "packageManager": "pnpm@7.6.0",
+  "scripts": {
+    "stub": "pnpm -r run build --stub",
+    "build": "pnpm run build:core && pnpm run build:prompts",
+    "build:core": "pnpm --filter @tyck/core run build",
+    "build:prompts": "pnpm --filter @tyck/prompts run build",
+    "start": "pnpm --filter @example/changesets run start",
+    "start:base": "pnpm --filter @example/basic run start",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format:imports": "organize-imports-cli ./packages/*/tsconfig.json",
+    "type-check": "tsc",
+    "release": "bumpp && npm publish",
+    "format": "pnpm run format:imports && pnpm run lint:fix"
+  },
+  "devDependencies": {
+    "@nyxb/eslint-config": "^0.0.9",
+    "@types/node": "18",
+    "eslint": "^8.37.0",
+    "merge2": "^1.4.1",
+    "organize-imports-cli": "^0.10.0",
+    "typescript": "^4.9.5",
+    "unbuild": "^1.1.2"
+  },
+  "eslintConfig": {
+    "extends": "@nyxb"
+  },
+  "volta": {
+    "node": "16.19.0"
+  }
+}

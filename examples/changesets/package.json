@@ -1,0 +1,17 @@
+{
+  "name": "@example/changesets",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "dependencies": {
+    "@tyck/core": "workspace:*",
+    "@tyck/prompts": "workspace:*",
+    "@nyxb/picocolors": "^1.0.1"
+  },
+  "scripts": {
+    "start": "jiti ./index.ts"
+  },
+  "devDependencies": {
+    "jiti": "^1.17.0"
+  }
+}
