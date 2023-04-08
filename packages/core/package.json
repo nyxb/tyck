@@ -8,11 +8,11 @@
   "homepage": "https://github.com/nyxb/bang/tree/main/packages/core#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nyxb/bang",
+    "url": "https://github.com/nyxb/tyck",
     "directory": "packages/core"
   },
   "bugs": {
-    "url": "https://github.com/nyxb/bang/issues"
+    "url": "https://github.com/nyxb/tyck/issues"
   },
   "keywords": [
     "ask",
