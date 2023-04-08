@@ -28,4 +28,4 @@ And finally, just ask the question! There's no need to [ask permission to ask a 
 
 Something isn't working the way that the docs say that it should. You're not sure if it's a bug. You've searched through the [open issues](https://github.com/nyxb/tyck/issues) and [discussions](#) but you can't find anything. (if there is a closed issue, please create a new one)
 
-We recommend taking a look at [how to report bugs](/docs/reporting-bugs). @tyck is still in active development, and every issue helps make it better.
+We recommend taking a look at [how to report bugs](/docs/reporting-bugs.md). @tyck is still in active development, and every issue helps make it better.
