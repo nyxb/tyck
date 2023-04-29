@@ -1,4 +1,4 @@
-# `@nyxb/bang-core` 🌠
+# `@tyck/core` 🌠
 
 Bang delivers powerful low-level primitives for crafting your very own command-line applications! 💥🎩
 
@@ -7,7 +7,7 @@ At present, `TextPrompt`, `SelectPrompt`, and `ConfirmPrompt` are available, alo
 Each `Prompt` takes in a `render` function.
   
 ```ts
-import { TextPrompt, isCancel } from '@nyxb/bang-core'
+import { TextPrompt, isCancel } from '@tyck/core'
 
 const p = new TextPrompt({
   render() {
@@ -20,4 +20,4 @@ if (isCancel(name))
   process.exit(0)
 ```
 
-et ready to build awe-inspiring CLI applications with the help of `@nyxb/bang-core`! 🚀🎇
+et ready to build awe-inspiring CLI applications with the help of `@tyck/core`! 🚀🎇
