@@ -1,7 +1,7 @@
-# @nyxb/bang-prompts
-🚀 Unleash the magic of stunning command-line apps 🪄 [Try the demo](https://stackblitz.com/edit/nyxb-bang-prompts?file=index.js)
+# @tyck/prompts
+🚀 Unleash the magic of stunning command-line apps 🪄 [Try the demo](https://stackblitz.com/edit/tyck/prompts?file=index.js)
 
-`@nyxb/bang-prompts` is a captivating, pre-styled wrapper around [`@nyxb/bang-core`](https://www.npmjs.com/package/@nyxb/bang-core) designed to empower your CLI applications.
+`@tyck/prompts` is a captivating, pre-styled wrapper around [`@tyck/core`](https://www.npmjs.com/package/@tyck/core) designed to empower your CLI applications.
 
 - 🤏🎉 A whopping 80% smaller than competing options
 - 💎🌈 Elegant, minimal UI for a polished look
@@ -14,7 +14,7 @@
 Utilize `intro` and `outro` functions to display messages that kick off 🚀 or conclude 🏁 a prompt session, respectively.
 
 ```ts
-import { intro, outro } from '@nyxb/bang-prompts'
+import { intro, outro } from '@tyck/prompts'
 
 intro('create-my-app 🚧')
 // Do stuff
@@ -24,7 +24,7 @@ outro('Youre all set! 🎉')
 The `isCancel` function acts as a safeguard ⚔️ that identifies when a user aborts a question with `CTRL + C`. Handle this situation for each prompt, and if desired, include a friendly cancellation message with the `cancel` utility.
 
 ```ts
-import { cancel, isCancel, text } from '@nyxb/bang-prompts'
+import { cancel, isCancel, text } from '@tyck/prompts'
 
 const value = await text(/* TODO */)
 
@@ -57,7 +57,7 @@ const meaning = await text({
 The confirm component accepts yes or no answers. The result is a boolean value of `true` or `false`. 🤔
 
 ```ts
-import { confirm } from '@nyxb/bang-prompts'
+import { confirm } from '@tyck/prompts'
 
 const shouldContinue = await confirm({
   message: 'Do you want to continue?🏃‍♂️',
@@ -68,7 +68,7 @@ const shouldContinue = await confirm({
 The select component enables users to choose one value from a list of options. The result is the `value` prop of the selected option. 🎯
 
 ```ts
-import { select } from '@nyxb/bang-prompts'
+import { select } from '@tyck/prompts'
 
 const projectType = await select({
   message: 'Pick a project type.📚',
@@ -84,7 +84,7 @@ const projectType = await select({
 The `multiselect` component lets users pick multiple values from a list of options. The result is an array containing all selected `value` props. 🛠️
   
   ```ts
-  import { multiselect } from '@nyxb/bang-prompts'
+  import { multiselect } from '@tyck/prompts'
 
 const additionalTools = await multiselect({
     message: 'Select additional tools. 🔧',
@@ -101,7 +101,7 @@ const additionalTools = await multiselect({
 The spinner component indicates a pending action, such as a lengthy download or dependency installation. ⏳
   
 ```ts
-import { spinner } from '@nyxb/bang-prompts'
+import { spinner } from '@tyck/prompts'
 
 const s = spinner()
 s.start('Installing via npm 📦')
@@ -115,7 +115,7 @@ s.stop('Installed via npm ✅')
 Grouping prompts together is an excellent way to maintain organized code.🧹 This accepts a JSON object with a name that can be used to reference the group later. The second argument is optional but has an onCancel callback that will be called if the user cancels one of the prompts in the group.
 
 ```ts
-import * as p from '@nyxb/bang-prompts'
+import * as p from '@tyck/prompts'
 
 const group = await p.group(
   {
